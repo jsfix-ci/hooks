@@ -1,9 +1,5 @@
+import { Options, ControlFunctions, DebouncedState } from 'use-debounce/dist/useDebouncedCallback';
 import { useDebouncedCallback } from "use-debounce";
-import type {
-  ControlFunctions,
-  DebouncedState,
-  Options,
-} from "use-debounce/lib/useDebouncedCallback";
 
 export type DebouncedOptions = Options;
 export type { ControlFunctions, DebouncedState };
